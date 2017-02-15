@@ -1,5 +1,5 @@
-FROM million12/nginx:latest
-MAINTAINER Marcin Ryzycki <marcin@m12.io>
+FROM eidher/docker-nginx:latest
+MAINTAINER Marcin Ryzycki <marcin@m12.io>, Eidher Escalona <eidher.escalona@gmail.com>
 
 ADD container-files/config/install* /config/
 
